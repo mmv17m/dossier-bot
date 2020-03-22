@@ -70,3 +70,4 @@ async def добавить(ctx, member:discord.Member, text ):
         print(members)
 
 token = os.environ.get("BOT_TOKEN")
+Bot.run(str(token))
