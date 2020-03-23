@@ -69,5 +69,5 @@ async def добавить(ctx, member:discord.Member, text ):
         await ctx.send(vid or "")
         print(members)
 
-token = os.environ.get("BOT_TOKEN")
+token = os.environ.get('BOT_TOKEN')
 bot.run(str(token))
